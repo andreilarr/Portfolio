@@ -20,7 +20,7 @@
 	transition: all 0.3s ease;
 }
 .navbar.sticky{
-	background: skyblue;
+	background: yellow;
 	padding: 15px 0;
 }
 .navbar .max-width{
@@ -29,40 +29,40 @@
 	justify-content: space-between;
 	}
 .navbar .logo a{
-	color: white;
+	color: black;
 	font-size: 35px;
 	font-weight: 500;
 } 
 .navbar .logo a span{
-	color: skyblue;
+	color: yellow;
 	transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-	color: white;
+	color: black;
 }
 .navbar .menu li{
 	list-style: none;
 	display: inline-block;
 }
 .navbar .menu li a{
-	color: white;
+	color: black;
 	font-size: 18px;
 	font-weight: 500;
 	margin-left: 25px;
 	transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-	color: skyblue;
+	color: yellow;
 }
 .navbar.sticky .menu li a:hover{
-	color: white;
+	color: black;
 }
 /*--home--inicio*/
 .home{
 	display: flex;
-	background: black;
+	background: purple;
 	height: 100vh;
-	color: white;
+	color: black;
 	min-height: 500px;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -82,27 +82,27 @@
 	margin: 5px 0;
 }
 .home .home-content .text-3 span{
-	color: skyblue;
+	color: yellow;
 	font-weight: 500;
 }
 .home .home-content a{
 	display: inline-block;
-	background: skyblue;
-	color: white;
+	background: yellow;
+	color: black;
 	font-size: 25px;
 	padding: 12px 36px;
 	margin-top: 20px;
 	border-radius: 6px;
-	border: 2px solid skyblue;
+	border: 2px solid yellow;
 }
 .home .home-content a:hover{
-	color: skyblue;
+	color: yellow;
 	background: none;
 }
 
 /*--Menu Mobile--*/
 .menu-btn{
-	color: white;
+	color: black;
 	font-size: 26px;
 	cursor: pointer;
 	display: none;
@@ -128,7 +128,7 @@ section .title::before{
 	left: 50%;
 	width: 180px;
 	height: 3px;
-	background: black;
+	background: purple;
 	transform: translateX(-50%);
 }
 section .title::after{
@@ -137,7 +137,7 @@ section .title::after{
 	bottom: -10px;
 	left: 50%;
 	font-size: 20px;
-	background: white;
+	background: black;
 	color: skyblue;
 	padding: 5px;
 	transform: translateX(-50%);
@@ -172,15 +172,15 @@ section .title::after{
 	margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-	color: skyblue;
+	color: yellow;
 }
 .about .about-content .right p{
 	text-align: justify;
 }
 .about .about-content .right a{
 	display: inline-block;
-	background: skyblue;
-	color: white;
+	background: yellow;
+	color: black;
 	font-size: 20px;
 	font-weight: 500;
 	padding: 10px 30px;
@@ -190,7 +190,7 @@ section .title::after{
 	transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-	color: skyblue;
+	color: yellow;
 	background: none;
 }
 .about .about-content .left img{
@@ -202,16 +202,16 @@ section .title::after{
 
 /*--sessao servicos--*/
 .services, .teams{
-	background: black;
-	color: white;
+	background: purple;
+	color: black;
 }
 .services .title::before,
 .teams .title: :before{
-	background: white;
+	background: black;
 }
 .services .title::after,
 .teams .title::after{
-	background: black;
+	background: purple;
 }
 .services .serv-content .card{
 	width: calc(33% - 20px);
@@ -224,7 +224,7 @@ section .title::after{
 	border: 2px solid skyblue;
 }
 .services .serv-content .card:hover{
-	color: skyblue;
+	color: yellow;
 	background: none;
 }
 .services .serv-content .card .box{
@@ -235,10 +235,10 @@ section .title::after{
 }
 .services .serv-content .card ion-icon{
 	font-size: 70px;
-	color: white;
+	color: black;
 }
 .services .serv-content .card:hover ion-icon{
-	color: skyblue;
+	color: yellow;
 }
 .services .serv-content .card .text{
 	font-size: 25px;
@@ -264,8 +264,8 @@ section .title::after{
 }
 .skills .skills-content .left a{
 	display: inline-block;
-	background: skyblue;
-	color: white;
+	background: yellow;
+	color: black;
 	font-size: 20px;
 	font-weight: 500;
 	padding: 8px 16px;
@@ -275,7 +275,7 @@ section .title::after{
 	transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-	color: skyblue;
+	color: yellow;
 	background: none;
 }
 
@@ -303,7 +303,7 @@ section .title::after{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: skyblue;
+	background: yellow;
 }
 .skills .skills-content .right .html::before{
 	width: 90%;
@@ -323,7 +323,7 @@ section .title::after{
 	content: "";
 }
 .teams .carousel .card{
-	background: skyblue;
+	background: yellow;
 	border-radius: 6px;
 	padding: 25px 35px;
 	text-align: center;
@@ -333,7 +333,7 @@ section .title::after{
 	height: 150px;
 	object-fit: cover;
 	border-radius: 20%;
-	border: 5px solid black;
+	border: 5px solid purple;
 }
 .teams .carousel .card .box{
 	display: flex;
@@ -379,7 +379,7 @@ section .title::after{
 		height: 100vh;
 		left: -100%;
 		top: 0;
-		background: black;
+		background: purple;
 		padding-top: 80px;
 		text-align: center;
 		transition: all 0.3s ease;
