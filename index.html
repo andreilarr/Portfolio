@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Pagina inicial - Portfólio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,7 +28,7 @@
 		<div class="max-width">
 			<div class="home-content">
 				<div class="text-1">Olá, meu nome é</div>
-				<div class="text-2">Andrei Larroque dos Santos</div>
+				<div class="text-2">Andrei Larroque</div>
 				<div class="text-3">Eu sou <span>desenvolvedor</span></div>
 				<a href="#">Contratar-me</a>
 			</div>
@@ -43,7 +44,7 @@
 					<img src="imagens/imagem1.JPG" alt="">
 				</div>
 				<div class="column right">
-						<div class="text">Sou Andrei e sou <span>desenvolvedor</span></div>
+						<div class="text">Me chamo Andrei e sou <span>desenvolvedor</span></div>
 						<p>Sou estudante de Engenharia da Computação e possuo paixão por computadores e todas as técnologias derivadas.</p>
 						<a href="">Download CV</a>
 				</div>
@@ -89,7 +90,7 @@
 			<h2 class="title">Conhecimentos</h2>
 			<div class="skills-content">
 				<div class="column left">
-					<div class="text">Meus conhecimentos:</div>
+					<div class="text">Conhecimentos:</div>
 					<p>Possuo conhecimentos em HTML e CSS como demonstrados na criação e design desse site.</p>
 					<p>Possuo muita lógica de programação, já tendo desenvolvido sistemas em Python e C.</p>
 					<p>Possuo conhecimento em edição de videos, tendo um canal no YouTube.</p>
@@ -100,25 +101,85 @@
 					<div class="bars">
 						<div class="info">
 							<span>HTML</span>
-							<span>60%</span>
+							<span>90%</span>
 						</div>
+						<div class="line html"></div>
+					</div>
 
+					<div class="bars">
 						<div class="info">
 							<span>CSS</span>
 							<span>60%</span>
 						</div>
+						<div class="line css"></div>
+					</div>
 
+					<div class="bars">
 						<div class="info">
 							<span>PYTHON</span>
 							<span>65%</span>
 						</div>
+						<div class="line python"></div>
+					</div>
 
+					<div class="bars">
 						<div class="info">
 							<span>C</span>
 							<span>50%</span>
 						</div>
+						<div class="line c"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--sessao equipe-->
+	<section class="teams" id="teams">
+		<div class="max-width">
+			<h2 class="title">Meus projetos</h2>
+			<div class="carousel  owl-carousel">
+				<div class="card">
+					<div class="box">
+						<img src="imagens/imagem2.JPG" alt="">
+						<div class="text">Circle in Square World</div>
+						<p>Um jogo feito em Python, sendo uma réplica do jogo Space Invaders.
 					</div>
 				</div>
+
+				<div class="card">
+					<div class="box">
+						<img src="imagens/imagem3.JPG" alt="">
+						<div class="text">Runner</div>
+						<p>Um jogo feito em Python sobre um corredor.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="box">
+						<img src="imagens/imagem4.png" alt="">
+						<div class="text">Georgia Battle</div>
+						<p>Um jogo feito em C, sendo um RPG de batalha por turnos.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="box">
+						<img src="">
+						<div class="text">Site HTML</div>
+						<p>Um site desenvolvido totalmente com HTML.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="box">
+						<img src="">
+						<div class="text">Site CSS</div>
+						<p>Um site desenvolvido totalmente em CSS.&nbsp&nbsp&nbsp&nbsp</p>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -127,6 +188,8 @@
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </body>
 </html>
